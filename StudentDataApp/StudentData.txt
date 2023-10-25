@@ -1,0 +1,12 @@
+
+Williams,Class A
+Andrew,Class C
+Bobby,Class A
+Tina,Class B
+James,Class C
+Antony,Class B
+Peter,Class A
+Candy,Class A
+Dennis,Class B
+Henry,Class c
+
