@@ -23,16 +23,18 @@ namespace StudentDataApp
             else
             {
                 //display the student data
+                Console.WriteLine("------------Rainbow School---------");
                 Console.WriteLine("Student Data:");
+                Console.WriteLine("-------------------------------------");
                 Console.WriteLine("Name\tClass");
                 DisplayStudentData(students);
-
+               
                 //display the data after sorting the data
                 Console.WriteLine("\nSorting Students Data By Name:");
                 QuickSort(students, 0, students.Count - 1);
                 DisplayStudentData(students);
-                
-                //display the student data after searching by name
+               
+               //display the student data after searching by name
                 Console.WriteLine("\nSearch for a student by name:");
                 string searchName = Console.ReadLine();
                 int index = BinarySearch(students, searchName);
